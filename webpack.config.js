@@ -17,6 +17,5 @@ module.exports = {
         new htmlWebpackPlugin({   // 打包HTML
             template: './src/index.html'   //  HTML模板路径
         })
-    ],
-    watch: true
+    ]
 };

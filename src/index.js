@@ -68,8 +68,8 @@ window.insertStyle = function (style) {
                     window.external.notify(JSON.stringify(data));
                 }
             });
-            let contaienr = document.querySelector("#preview-container");
-            contaienr.innerHTML = r;
+            let container = document.getElementById("previewContainer");
+            container.innerHTML = r;
         } catch (ex) {
             console.log(ex);
         }
